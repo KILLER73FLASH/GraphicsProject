@@ -1,0 +1,23 @@
+// use deltatime
+// call by node or child or name
+// arm.L, arm.R, leg.L, leg.R
+// update timer with delta time
+
+timer = 0;
+
+if (timer <= 250 || timer > 750) {
+	Guy.getNode(3).roll(.12f); // arm.L
+	Guy.getNode(6).roll(-.12f); // arm.R
+	Guy.getNode(9).roll(.12f); // leg.L
+	Guy.getNode(12).roll(-.12f); // leg.R
+	timer++;
+} else {
+	Guy.getNode(3).roll(-.12f);
+	Guy.getNode(6).roll(.12f);
+	Guy.getNode(9).roll(-.12f);
+	Guy.getNode(12).roll(.12f);
+	timer++;
+} if timer >= 1000
+	timer = 0;
+
+

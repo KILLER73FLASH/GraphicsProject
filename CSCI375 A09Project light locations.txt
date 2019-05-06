@@ -1,0 +1,17 @@
+Light locations
+
+// point
+Vector3 (9.0f, 10.0f, -30.0f);
+Vector3 (41.0f, 10.0f, -36.5f);
+Vector3 (-17.0f, 10.0f, -2.0f);
+
+Vector3 (36.0f. 10.0f, 46.5f);
+Vector3 (-16.0f, 10.0f, 50.5f);
+Vector3 (-56.0f, 10.0f, 50.5f);
+
+// spot
+Vector3 (-105.5f, 7.5f, -3.5f);
+Vector3 (43.0f, 10.0f, 16.0f);
+
+// directional light, rotate -30' on z axis
+Vector3 (-160f, 10.0f, 53.0f);
